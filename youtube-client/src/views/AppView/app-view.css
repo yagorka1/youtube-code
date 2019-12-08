@@ -1,0 +1,173 @@
+body {
+  margin: 0 auto;
+}
+
+.mainn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.searchField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(202, 201, 201);
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.teaxtarea {
+  width: 70%;
+  height: 40%;
+  background-color: rgb(238, 238, 238);
+  font-size: 16px;
+  padding-left: 10px;
+  border: 1px solid gray;
+}
+
+.teaxtarea:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.teaxtarea:focus{
+  outline: none;
+}
+
+.searchButton {
+  height: 46%;
+  margin-left: 10px;
+}
+
+.searchButton:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.cards {
+  width: 91.2%;
+  margin-top: 50px;
+  margin-left: 3px;
+  overflow: hidden;
+
+}
+
+.line {
+  padding-top: 0px;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  left: 0;
+  transition: all ease 3s;
+}
+
+.card {
+  background-color: rgb(210, 219, 75);
+  width: 320px;
+  height: 450px;
+  float: left;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-left: 25px;
+  overflow: hidden;
+}
+
+.card:hover {
+  background-color: red;
+  transform: rotate(-5deg);
+  color: white;
+}
+
+img {
+  width: 320px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.name {
+  height: 70px;
+  margin: 10px;
+}
+
+h4 {
+  margin: 0 auto;
+}
+
+.data {
+  width: 90%;
+  height: 180px;
+  margin: 10px;
+  line-height: 16pt;
+}
+
+h5 {
+  margin: 0 auto;
+  margin-bottom: -15px;
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+.views {
+  line-height: 34pt;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.arrow:hover {
+ background-color: red;
+ cursor: pointer;
+}
+
+.warningMessage{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.txtMessage {
+  margin-top: -250px;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+.items {
+  list-style: disc;
+  margin-left: -10px;
+}
+
+.hid {
+  display: none;
+}
+
+.page {
+  margin-top: 2px;
+  width: 5px;
+  font-style: normal;
+  font-size: 24px;
+}
